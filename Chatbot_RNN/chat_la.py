@@ -27,7 +27,7 @@ class ChatBot:
         #self.sess = tf.Session()
         #pdb.set_trace()
         ckpt = tf.train.get_checkpoint_state(train_dir)
-        print (ckpt.model_checkpoint_path)
+        print(ckpt.model_checkpoint_path)
         self.model.saver.restore(self.sess, ckpt.model_checkpoint_path)
     def draw_triangle_S(self, master,widget):
         x1, y1, x2, y2 = master.bbox(widget)
