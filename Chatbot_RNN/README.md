@@ -21,5 +21,4 @@ python train.py --train
 
 ```
 python dialog.py --voc_build
-```# SEQ2SEQ2_KB_KAIST
-# KB_KAIST
+```
